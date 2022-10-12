@@ -2,7 +2,7 @@ body{
     background-color: #02022c;
     color: #ffffff;
     font-family: Helvetica;
-    background-image: url("../IMGS/survey.jpg");
+    background-image: url("survey.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -130,23 +130,8 @@ textarea{
 }
 .submit-btn:hover{
     background-color: green;
-    animation: submit-btn 2s infinite;
 }
 
-@keyframes submit-btn {
-    0%{
-        transform: scale(0.85);
-        box-shadow: 0 0 0 0 rgba(255, 82, 82, 0.7);
-    }
-    70%{
-        transform: scale(1);
-        box-shadow: 0 0 0 0 rgba(255, 82, 82, 0.7);
-    }
-    100%{
-        transform: scale(0.85);
-        box-shadow: 0 0 0 0 rgba(255, 82, 82, 0.7);
-    }
-}
 
 .black-hat{
         width: 0;
