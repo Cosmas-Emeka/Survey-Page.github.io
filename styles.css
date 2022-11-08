@@ -1,5 +1,5 @@
 body{
-    background-color: #02022c;
+    background-color: #000;
     color: #ffffff;
     font-family: Helvetica;
     background-image: url("survey.jpg");
@@ -72,7 +72,7 @@ main{
 }
   
 .input-group label{
-    margin: 20px 9% -20px 9%;
+    margin: 20px 9% -5px 9%;
 }
 
 .fs{
@@ -125,11 +125,11 @@ textarea{
     font-weight: bolder;
     border: 10px ridge #800000;
     border-radius: 15px;
-    background-color: #10a510;
+    background-color: green;
     cursor: pointer;
 }
 .submit-btn:hover{
-    background-color: green;
+    background-color: #10a510;
 }
 
 
