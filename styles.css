@@ -16,19 +16,22 @@ header{
 .text-center{
     text-align: center;
     font-weight: bolder;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .text-primary{
     color: #ffd700;
     text-shadow: 3px 3px 5px #000;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-family: monospace;
 }
 
 
 #only{
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
+
 span{
     color: #ffd700;
     text-shadow: 3px 3px 5px #000;
@@ -50,7 +53,6 @@ main{
 	border-radius: 30px;
     color: #ffffff;
     line-height: 3.00;
-    font-size: 20px;
     font-weight: bolder;
     opacity: 90%;
 }
@@ -87,7 +89,7 @@ select{
     border: 10px ridge #800000;
     border-radius: 15px;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1em;
     padding: 5px 5px;
     display: block;
     margin: 0 auto;
